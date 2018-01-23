@@ -2,6 +2,7 @@
 Python Spider Study Note
 
 ## Spider List
+- [列出文章链接列表](./Simple/SpiderTest-Ns96-Archive.py)
 
 ## Study Note 
 - [Python爬虫学习之旅-从基础开始](https://ns96.com/2018/01/09/python-spider-start/)
