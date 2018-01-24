@@ -16,9 +16,8 @@ ext_html = requests.get(target_Url,headers=headers)
 
 # !!解决动态加载知识
 soup = BeautifulSoup(ext_html.text,'lxml')
-songlist = soup.select('span.txt')
+songlist = soup.select('span.txt > a > b')
 print(songlist)
-
 
 for songs in urls:
     print(songs)
